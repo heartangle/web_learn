@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <figure>
+        <a href="http://www.baidu.com" target="_blank">
+            <img usemap="#solarMap" src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=1810263825,3341516529&fm=26&gp=0.jpg">
+        </a>
+        <figcaption>
+            <h2>百度图标照片</h2>
+        </figcaption>
+        <p>
+            百度
+        </p>
+    </figure>
+
+    <map name="solarMap">
+        <!-- 
+            shape:形状  coords:坐标  href：点击形状的坐标地址
+            alt:当图片不能显示时，显示的文字。  target:跳转窗口位置
+         -->
+         <!-- 
+            circle-圆形，告诉圆心坐标和圆的半径
+          -->
+        <area shape="circle" coords="122,148,50" href="https://www.douyu.com/" target="_blank">
+        <!-- 
+            rect-矩形，告诉矩形左上角坐标和右下角坐标
+         -->
+         <area shape="rect" coords="115,251,153,293" href="https://www.qq.com/" target="_blank">
+         <!-- 
+            poly-多边形，逆时针依次告诉各个点的坐标
+          -->
+        <area shape="poly" coords="0,0,0,50,50,50,50,0" href="http://www.renren.com/" target="_blank">
+    </map>
+</body>
+</html>
