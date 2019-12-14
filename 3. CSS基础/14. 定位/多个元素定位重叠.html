@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .item {
+            position: absolute;
+            width: 70px;
+            height: 70px;
+            border: 4px solid;
+            box-sizing: border-box;
+            /* 设置边框弧度可以让边框形状改变 */
+            border-radius: 50%; 
+        }
+
+        .circle1 {
+            left: 0;
+            top: 0;
+            border-color: blue;
+            z-index: 6;
+        }
+
+        .circle2 {
+            left: 70px;
+            top: 0;
+            border-color: #000;
+            z-index: 2;
+        }
+
+        .circle3 {
+            left: 140px;
+            top: 0;
+            border-color: red;
+            background: red;
+            z-index: -1;
+        }
+
+        .circle4 {
+            left: 35px;
+            top: 50px;
+            border-color: yellow;
+            z-index: 4;
+        }
+
+        .circle5 {
+            left: 105px;
+            top: 50px;
+            border-color: green;
+            z-index: 5;
+        }
+    </style>
+</head>
+<body>
+    <div class="item circle1"></div>
+    <div class="item circle2"></div>
+    <div class="item circle3"></div>
+    <div class="item circle4"></div>
+    <div class="item circle5"></div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime saepe sit, sed vero accusantium omnis laboriosam consequuntur. Voluptate aspernatur quis eos nobis, omnis temporibus explicabo at possimus sint ex architecto ad nisi quidem doloremque blanditiis consectetur ipsa hic assumenda officia sunt adipisci quam magni expedita. Ipsam corporis amet distinctio sapiente? Minima, sed. Fugit aliquam voluptate numquam ipsa accusamus officiis veniam. Quo pariatur numquam voluptatem delectus, dignissimos tempore, porro dolores voluptatibus expedita qui nostrum, reiciendis modi ad magnam optio maiores beatae! Deleniti quae, recusandae facilis impedit atque itaque dolor similique eius doloribus voluptate libero ad culpa consequatur. Suscipit minima quidem eligendi.</p>   
+</body>
+</html>
